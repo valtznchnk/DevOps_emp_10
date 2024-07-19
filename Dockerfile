@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN dnf update && dnf install nginx
+RUN apt-get update && apt-get install nginx
